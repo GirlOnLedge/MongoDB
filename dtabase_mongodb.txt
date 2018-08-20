@@ -1,0 +1,8 @@
+Database -> Collections -> Documents
+
+use my_database
+show dbs
+db.collections.insert({"Name":"ABC"})
+show dbs
+db.dropDatabase()
+show dbs

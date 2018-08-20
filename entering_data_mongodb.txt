@@ -1,0 +1,27 @@
+#entering data
+
+use my_college
+db.students_data.insert(
+ [
+   {
+    "First Name":"Kanishka",
+    "Last Name":"Parmar",
+    "Enrol_no":"15101012"
+   },
+   {
+    "First Name":"Nidhi",
+    "Last Name":"Jadon",
+    "Enrol_no":"15101013"
+   },
+   {
+    "First Name":"Nimisha",
+    "Last Name":"Sabharwal",
+    "Enrol_no":"15101014"
+   },
+   {
+    "First Name":"Priyanshi",
+    "Last Name":"Gupta",
+    "Enrol_no":"15101015"
+   }
+ ]
+)

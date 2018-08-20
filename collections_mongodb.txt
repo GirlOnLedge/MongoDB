@@ -1,0 +1,11 @@
+#collection
+
+use my_database
+db.createCollection("my_collection_1")
+show collections
+db.my_collection_2.insert({"Name":"ABC"})
+show collections
+db.my_collection_1.drop()
+show collections
+db.my_collection_2.drop()
+show collections
